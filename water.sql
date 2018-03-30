@@ -6,7 +6,7 @@ CREATE TABLE `connection` (
   `month` mediumint default NULL,
   `year` mediumint default NULL,
   `sid` mediumint default NULL,
-  `revenue` mediumint default NULL,
+  `revenue` largeint default NULL,
   PRIMARY KEY (`id`)
 ) AUTO_INCREMENT=1;
 
