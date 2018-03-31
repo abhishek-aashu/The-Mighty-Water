@@ -3,5 +3,5 @@ from . import views
 
 urlpatterns = [
     path('', views.index),
-    path('<int:di>/', views.district, name = 'district'),
+    path('rev/<int:zn>/', views.zonal, name = 'district'), #for total revenue in a zone
 ]
